@@ -7,12 +7,15 @@ import Navigation from "../components/navigation";
 const homeContent = (
   <>
     <Head>
-      <title>Justin Yun's Portfolio</title>
+      <title>{"Justin Yun's Portfolio"}</title>
     </Head>
     <Navigation></Navigation>
     <main className="bg-gray-100 text-gray-900 min-h-screen font-sans">
       {/* Home Section */}
-      <section id="home" className="flex items-center justify-center h-screen bg-white">
+      <section
+        id="home"
+        className="flex items-center justify-center h-screen bg-white"
+      >
         <Header></Header>
       </section>
 
@@ -21,9 +24,9 @@ const homeContent = (
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-6">About Me</h2>
           <p className="text-gray-700 text-lg">
-            I'm a frontend developer passionate about building beautiful and
-            responsive web apps. I specialize in React, Next.js, and Tailwind
-            CSS.
+            {
+              "I'm a frontend developer passionate about building beautiful and responsive web apps. I specialize in React, Next.js, and Tailwind CSS."
+            }
           </p>
         </div>
       </section>
@@ -39,7 +42,8 @@ const homeContent = (
                 className="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition"
               >
                 <h3 className="text-xl font-semibold mb-2">
-                  Project {project}
+                  Project 
+                  {project}
                 </h3>
                 <p className="text-gray-600 mb-4">
                   A short description of the project.

@@ -10,7 +10,7 @@ const Header = () => {
         alt="Profile"
         className="w-32 h-32 mx-auto rounded-full shadow-md mb-6"
       />
-      <h1 className="text-5xl font-bold">Hello, I'm Justin Yun</h1>
+      <h1 className="text-5xl font-bold">{"Hello, I'm Justin Yun"}</h1>
       <p className="mt-4 text-xl text-gray-600">Software Developer Engineer</p>
       <a
         href="files/JY_Resume.pdf"
